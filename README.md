@@ -13,7 +13,7 @@ You put your bag on the floor next to the chair and put your cup of coffee in th
 
 Martin smiles widely, obviously pleased that you appreciate his achievements with his hobby.
 
-You continue to pull your notebook and a pen out of your bag, and ask, "So you said that you wanted multiple sections on your site - one that lists the fish you currently own, and another one that lists all the places that you've visited to collect the fish..."
+You continue to pull your notebook and a pen out of your bag, and ask, <b>"So you said that you wanted multiple sections on your site - one that lists the fish you currently own, and another one that lists all the places that you've visited to collect the fish..."</b>
 
 "Harvest the fish," Martin interjects with a forced smile.
 
@@ -21,9 +21,9 @@ You continue to pull your notebook and a pen out of your bag, and ask, "So you s
 
 You shift in your seat because the hard, wooden chairs are already becoming uncomfortable, and continue, "Is there anything you've thought of based on the example sites I sent you?"
 
-Martin leans forward and put his hands on the table, "Actually yes. On the 'Fish Upon A Star' site, they had this content on the right side of the list of fish that explained the process of keeping the tank clean and the water at the right salinity and temperature. I'd love to have that so I can put my thoughts in there."
+Martin leans forward and put his hands on the table, "Actually yes. On the 'Fish Upon A Star' site, they had this <b>content on the right side of the list of fish that explained the process of keeping the tank clean and the water at the right salinity and temperature. I'd love to have that so I can put my thoughts in there."
 
-You take notes as he talks and make sure that you jot down the you will need an <aside> element on that page.
+You take notes as he talks and make sure that you jot down the you will need an <aside> element on that page.</b>
 
 "All the sites had a navigation bar at the top. I'd like to have a navigation bar. Were you planning on having a navigation bar?" It's clear the way Martin places an emphasis on navigation bar that he's proud that he knows what that's called.
 
@@ -33,13 +33,13 @@ Martin frowns quickly, but recovers and says, "Hm, I suppose. Well, just make it
 
 "Martin's been doing a little research on web stuff," you think as you pointedly write down 'Nav bar in future?' in your notes.
 
-He patiently waits for you to finish jotting down these important notes, and then says, "Lastly, the 'Buoys and Gills' site had a part that listed travel tips for people who love to scuba and harvest fish. On the page that lists all of the out-of-the-way places I've visited, I would like to provide a few quotes to help people."
+He patiently waits for you to finish jotting down these important notes, and then says, "Lastly, the 'Buoys and Gills' site had a part that listed travel tips for people who love to scuba and harvest fish. <b>On the page that lists all of the out-of-the-way places I've visited, I would like to provide a few quotes to help people."</b>
 
 "Where would you like that to appear?" you ask briskly.
 
 Martin responds, "Right above the list of locations."
 
-You note that in your journal, then ask, "Ok, I just want to make sure I get this right for you. The details of each fish should include the image, the species, its length, what you named the fish, where you harvested it, and what it eats... is that all correct?"
+You note that in your journal, then ask, "Ok, I just want to make sure I get this right for you.<b> The details of each fish should include the image, the species, its length, what you named the fish, where you harvested it, and what it eats... is that all correct?"</b>
 
 "That sure is," he says confidently and leans back in his chair with his arms behind his head.
 
