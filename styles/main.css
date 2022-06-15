@@ -1,14 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Merriweather:wght@300&family=Raleway:wght@300&display=swap');
 
-.fish_header {
+h1, h2, h3 {
+    display: inline;
+}
+
+.fishes_header, 
+.travel_header {
     font-family: 'Raleway', sans-serif;
-    display: flex;
     font-size: 1.2em;
     background-color: #D9D9D9;
     height: 100px;
     text-transform: lowercase;
+    justify-content: space-between;
 }
 
-.fish_title {
+.fishes_header__title, 
+.travel_header__title {
     margin-left: 20px;
+    display: flex;
+}
+
+.fishes_title__logo, 
+.travel_title__logo {
+    margin-left: 20px;
+    height: 100px;
+}
+
+.fishes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 50px 25px 50px 25px;
+}
+
+.fishes__fish {
+    width: 300px;
+    height: 250px;
+    padding: 0px 15px 10px 15px;
+    background-color: #D9D9D9;
+}
+
+.fish__image {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin-left: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fish__header {
+    background-image: linear-gradient(to right, #ADD9BA, #D9D9D9); 
+    width: 310px;
+    height: 20 px;
+    margin-top: -5px;
+    margin-left: -15px;
+    margin-bottom: 15px;
+    padding: 5px 5px 5px 15px;
+}
+
+.fish__names {
+    display: flex;
+}
+
+.fish__name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
+
+.fish__nickname {
+    font-family: 'Merriweather', serif;
+    font-size: .85em;
+
+}
+
+.fish__details {
+    font-family: 'Merriweather', serif;
+    font-size: .85em;
+}
+
+.fish__tip {
+    font-family: 'Caveat', cursive;
+    font-size: 1.4em;
+    background-color: #D9C3C3;
+    margin-top: -70px;
+    margin-right: -45px;
+    padding: 2px 7px 2px 7px;
+    float: right;
+    width: 83%;
+    max-width: 155px;
+
 }
