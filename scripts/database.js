@@ -37,7 +37,7 @@ const database = {
             species: "Silver Hake",
             image: "assets/silver-hake.png",
             nickname: "Katarina",
-            from: "Bar Harbor",
+            from: "Frenchman Bay",
             food: "lobster chunk",
             size: 42,
             tip: "tip: clean tank every 6 weeks, keep salinity at 64% & temp at 59°F"
@@ -55,15 +55,45 @@ const database = {
             species: "Atlantic Mackerel",
             image: "assets/atlantic-mackerel.png",
             nickname: "Mercurio",
-            from: "Bar Harbor",
+            from: "Frenchman Bay",
             food: "lobster chunk",
             size: 42,
             tip: "tip: clean tank every 6 weeks, keep salinity at 64% & temp at 59°F"
 
         }
+    ],
+    locations: [
+        {
+            location: "Delaware River",
+            image: "assets/delaware-river.webp",
+            locale: "Trenton, New Jersey",
+            tip: "Make sure you pack plenty of sunscreen and bug spray. The locals are abundantly friendly, but the mosquitos most certainly are not!"    
+        },
+        {
+            location: "Delaware River",
+            image: "assets/salton-sea.webp",
+            locale: "Mortmar, California",
+            tip: "There's still life in this old man-made lake. However, it's like a ghost town though if you are looking for human contact. Bring a dog companion to raise morale."
+        },
+        {
+            location: "Frenchman Bay",
+            image: "assets/frenchman-bay.webp",
+            locale: "Bar Harbor, Maine",
+            tip: "You will get Lyme's Disease if you don't cover up and spray repellant. Or you can just stay in the water, the ticks can't get you there!"
+        },
+        {
+            location: "Lago de La Niña",
+            image: "assets/lago-de-la-nina.png",
+            locale: "Piura, Peru",
+            tip: "Located in the capital of Peru's northwestern region, Lago de La Niña is the definition of 'que tranquilla'. Be sure to visit Isla Lobos de Tierra for some rare terrestrial species"
+        },
     ]
 }
 
 export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
+}
+
+export const getLocations = () => {
+    return database.locations.map(locations => ({...locations}))
 }

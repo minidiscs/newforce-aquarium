@@ -1,5 +1,6 @@
 // https://www.fishwatch.gov/developers - fish api for potential later use
 import { fishList } from './fishlist.js'
+import { locationsList } from './locationslist.js'
 
 /*
     What is the CSS selector for the element where you
@@ -8,7 +9,9 @@ import { fishList } from './fishlist.js'
     Use . for elements with a "class" attribute
     Use # for elements with an "id" attribute
  */
-const parentHTMLElement = document.querySelector(".fishies")
+const parentFishHTMLElement = document.querySelector(".fishies")
+const parentLocationsHTMLElement = document.querySelector(".locationies")
 
 
-parentHTMLElement.innerHTML = fishList()
+parentFishHTMLElement.innerHTML = fishList()
+parentLocationsHTMLElement.innerHTML = locationsList()
