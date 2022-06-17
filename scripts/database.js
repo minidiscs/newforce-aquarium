@@ -70,7 +70,7 @@ const database = {
             tip: "Make sure you pack plenty of sunscreen and bug spray. The locals are abundantly friendly, but the mosquitos most certainly are not!"    
         },
         {
-            location: "Delaware River",
+            location: "Salton Sea",
             image: "assets/salton-sea.webp",
             locale: "Mortmar, California",
             tip: "There's still life in this old man-made lake. However, it's like a ghost town though if you are looking for human contact. Bring a dog companion to raise morale."
