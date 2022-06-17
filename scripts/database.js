@@ -14,7 +14,7 @@ const database = {
             food: "super flakes",
             size: 18,
             tip: "tip: clean tank every 5 weeks, keep salinity at 42% & temp at 67°F"
-        }
+        },
         {
             species: "Salt Trout",
             image: "assets/salt-trout.png",
@@ -23,7 +23,7 @@ const database = {
             food: "odd mix",
             size: 38,
             tip: "tip: clean tank every 3 weeks, keep salinity at 32% & temp at 72°F"
-        }
+        },
         {
             species: "Peruvian Anchoveta",
             image: "assets/peruvian-anchoveta.png",
@@ -32,7 +32,7 @@ const database = {
             food: "slippery bark",
             size: 21,
             tip: "tip: clean tank every 3 weeks, keep salinity at 32% & temp at 72°F"
-        }
+        },
         {
             species: "Silver Hake",
             image: "assets/silver-hake.png",
@@ -41,7 +41,7 @@ const database = {
             food: "lobster chunk",
             size: 42,
             tip: "tip: clean tank every 6 weeks, keep salinity at 64% & temp at 59°F"
-        }
+        },
         {
             species: "Chinook Salmon",
             image: "assets/chinook_salmon.png",
@@ -50,7 +50,7 @@ const database = {
             food: "odd mix",
             size: 48,
             tip: "tip: clean tank every 5 weeks, keep salinity at 42% & temp at 67°F"
-        }
+        },
         {
             species: "Atlantic Mackerel",
             image: "assets/atlantic-mackerel.png",
