@@ -12,7 +12,7 @@ const database = {
             nickname: "Pilchardo",
             from: "Delaware River",
             food: "super flakes",
-            size: 18,
+            size: 20,
             tip: "tip: clean tank every 5 weeks, keep salinity at 42% & temp at 67°F"
         },
         {
@@ -28,7 +28,7 @@ const database = {
             species: "Peruvian Anchoveta",
             image: "assets/peruvian-anchoveta.png",
             nickname: "Enrique",
-            from: "Lago La Nina",
+            from: "Lago La Niña",
             food: "slippery bark",
             size: 21,
             tip: "tip: clean tank every 3 weeks, keep salinity at 32% & temp at 72°F"
@@ -39,7 +39,7 @@ const database = {
             nickname: "Katarina",
             from: "Frenchman Bay",
             food: "lobster chunk",
-            size: 42,
+            size: 45,
             tip: "tip: clean tank every 6 weeks, keep salinity at 64% & temp at 59°F"
         },
         {
@@ -48,7 +48,7 @@ const database = {
             nickname: "Josephine",
             from: "Coos Bay",
             food: "odd mix",
-            size: 48,
+            size: 49,
             tip: "tip: clean tank every 5 weeks, keep salinity at 42% & temp at 67°F"
         },
         {
@@ -87,6 +87,13 @@ const database = {
             locale: "Piura, Peru",
             tip: "Located in the capital of Peru's northwestern region, Lago de La Niña is the definition of 'que tranquilla'. Be sure to visit Isla Lobos de Tierra for some rare terrestrial species"
         },
+    ],
+    tips: [
+        {
+        salinity: "Keep tank salinity at 64% for all ocean fish, and 21% for brackish fish, and 5% for freshwater fish.",
+        cleaning: "Clean all tanks every 4 weeks with brush and fish safe cleaning solution.",
+        temperature: "Keep tank temperature at 67° for all fish from northern waters, for tropical fish, keep tank at 81°."
+        }
     ]
 }
 
