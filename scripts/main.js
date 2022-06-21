@@ -1,7 +1,7 @@
 // https://www.fishwatch.gov/developers - fish api for potential later use
 import { fishList } from './fishlist.js'
 import { locationsList } from './locationslist.js'
-import { mostHolyFish , soldierFish , nonHolyFish } from './fishfilter.js'
+import { mostHolyFish , soldierFish , nonHolyFish, orderedFish } from './fishfilter.js'
 
 /*
     What is the CSS selector for the element where you
