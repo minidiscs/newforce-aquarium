@@ -1,7 +1,7 @@
 # newforce-aquarium
 A website for Martin and his fish. Made for learning.
 
-![](https://github.com/minidiscs/newforce-aquarium/raw/feat/database/sample/martins-fishes.gif)
+![](https://github.com/minidiscs/newforce-aquarium-sb/raw/feat/database/sample/martins-fishes.gif)
 
 "So nice to meet you finally after all of those emails. Please, grab a chair," says Martin. He uses his leather loafer to gently nudge a chair slightly away from the table. He subtly waves his hand towards the chair in invitation.
 
