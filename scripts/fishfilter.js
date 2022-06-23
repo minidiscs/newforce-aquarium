@@ -1,7 +1,7 @@
 import { getFish } from './database.js'
 
 export const mostHolyFish = () => {
-    // 3, 6, 9, 12, etc... fish
+    // fish with length divisible by 3
     const fishes = getFish()
     const holyFish = []
 
@@ -15,7 +15,7 @@ export const mostHolyFish = () => {
 }
 
 export const soldierFish = () => {
-    // 5, 10, 15, 20, 25, etc... fish
+    // fish with length divisible by 5 and not 3
     const fishes = getFish()
     const soldierFish = []
 
@@ -28,7 +28,7 @@ export const soldierFish = () => {
 }
 
 export const nonHolyFish = () => {
-    // Any fish not a multiple of 3 or 5
+    // fish not divisible by either 3 or 5
     const fishes = getFish()
     const regularFish = []
 
@@ -40,6 +40,20 @@ export const nonHolyFish = () => {
     return regularFish
 }
 
-console.log(mostHolyFish())
-console.log(soldierFish())
-console.log(nonHolyFish())
+export const orderedFish = () => {
+    // Fish array put together with holy fish first, then soldier fish, then non holy fish
+
+    const firstFish = mostHolyFish()
+    const secondFish = soldierFish()
+    const thirdFish = nonHolyFish()
+
+    let orderedFish = firstFish
+
+    for (const fish of secondFish) {
+        orderedFish.push(fish)
+    }
+    for (const fish of thirdFish) {
+        orderedFish.push(fish)
+    }
+    return orderedFish
+}
