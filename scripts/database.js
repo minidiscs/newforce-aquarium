@@ -142,3 +142,7 @@ export const getFish = () => {
 export const getLocations = () => {
     return database.locations.map(locations => ({...locations}))
 }
+
+export const getTips = () => {
+    return database.tips.map(tips => ( {...tips}))
+}

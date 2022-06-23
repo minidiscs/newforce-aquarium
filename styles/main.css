@@ -35,6 +35,15 @@ body {
     height: 100px;
 }
 
+.fishes_and_tips {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px 25px 50px 25px;
+}
+
+
 .fishes,
 .travels {
     display: flex;
@@ -51,6 +60,14 @@ body {
     padding: 0px 15px 10px 15px;
     margin-bottom: 25px;
     background-color: #D9D9D9;
+}
+
+.tips__tip {
+    width: 300px;
+    height: 500px;
+    padding: 0px 15px 10px 15px;
+    margin-bottom: 25px;
+    background-color: #D9C3C3;
 }
 
 .fish__image,

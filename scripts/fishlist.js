@@ -1,13 +1,15 @@
 // Import the function that returns a copy of the fish array
 import { orderedFish } from './fishfilter.js'
+import { getTips } from './database.js'
 
 
 export const fishList = () => {
     // Invoke the function that you imported from the database module
     const fishes = orderedFish()
+    const tips = getTips()
 
     // Start building a string filled with HTML syntax
-    let fishHTML = `<section class="fishes">`
+    let fishHTML = `<div class="fishes_and_tips"><section class="fishes">`
 
     // Create HTML representations of each fish here
     for (const fish of fishes) {
@@ -29,7 +31,7 @@ export const fishList = () => {
         </article>
 `
     }
-    fishHTML += `</section>`
+    fishHTML += `</section><section class="tips"><aside class="tips__tip">${tips.salinity}</aside></section></div>`
 
     return fishHTML
 }
