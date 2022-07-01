@@ -12,6 +12,7 @@ const database = {
             image: "assets/sardine.png",
             nickname: "Pilchardo",
             from: "Delaware River",
+            locationId: 1,
             food: "super flakes",
             size: 20,
             tip: "tip: clean tank every 5 weeks, keep salinity at 42% & temp at 67°F"
@@ -22,6 +23,7 @@ const database = {
             image: "assets/salt-trout.png",
             nickname: "Roberto",
             from: "Salton Sea",
+            locationId: 2,
             food: "odd mix",
             size: 38,
             tip: "tip: clean tank every 3 weeks, keep salinity at 32% & temp at 72°F"
@@ -32,6 +34,7 @@ const database = {
             image: "assets/peruvian-anchoveta.png",
             nickname: "Enrique",
             from: "Lago La Niña",
+            locationId: 4,
             food: "slippery bark",
             size: 21,
             tip: "tip: clean tank every 3 weeks, keep salinity at 32% & temp at 72°F"
@@ -42,6 +45,7 @@ const database = {
             image: "assets/silver-hake.png",
             nickname: "Katarina",
             from: "Frenchman Bay",
+            locationId: 3,
             food: "lobster chunk",
             size: 45,
             tip: "tip: clean tank every 6 weeks, keep salinity at 64% & temp at 59°F"
@@ -52,6 +56,7 @@ const database = {
             image: "assets/chinook_salmon.png",
             nickname: "Josephine",
             from: "Coos Bay",
+            locationId: 5,
             food: "odd mix",
             size: 49,
             tip: "tip: clean tank every 5 weeks, keep salinity at 42% & temp at 67°F"
@@ -62,6 +67,7 @@ const database = {
             image: "assets/atlantic-mackerel.png",
             nickname: "Mercurio",
             from: "Frenchman Bay",
+            locationId: 3,
             food: "lobster chunk",
             size: 42,
             tip: "tip: clean tank every 6 weeks, keep salinity at 64% & temp at 59°F"
@@ -72,6 +78,7 @@ const database = {
             image: "assets/spanish-mackerel.png",
             nickname: "Alexis",
             from: "Mobile Bay",
+            locationId: 6,
             food: "crawdad dumplings",
             size: 35,
             tip: "tip: clean tank every 5 weeks, keep salinity at 42% & temp at 67°F"
@@ -82,6 +89,7 @@ const database = {
             image: "assets/mahi-mahi.png",
             nickname: "Torpedo",
             from: "Mobile Bay",
+            locationId: 6,
             food: "crawdad dumplings",
             size: 60,
             tip: "tip: clean tank every 3 weeks, keep salinity at 64% & temp at 67°F"
@@ -92,6 +100,7 @@ const database = {
             image: "assets/monkfish.png",
             nickname: "Diablo",
             from: "Frenchman Bay",
+            locationId: 3,
             food: "odd mix",
             size: 41,
             tip: "tip: clean tank every 6 weeks, keep salinity at 64% & temp at 59°F"
